@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --grey: #eee;
+  --black: #222;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--black);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+
+header button {
+  padding: 2rem 3rem;
+}
+
+header > p {
+  color: var(--grey);
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--grey);
+  margin-top: 6rem;
+}
+
+.numbers {
+  background: var(--grey);
+  color: #333;
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0;
+  translate: calc(100vw / 2.2) -50%;
+  text-align: center;
+}
+
+hr {
+  height: 0.6rem;
+  background-color: var(--grey);
+  border-style: none;
+  margin-top: 9.7rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+  color: var(--grey);
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-size: 2rem;
+  font-family: "Press Start 2P", system-ui;
+  padding: 1rem 1.5rem;
+  border-style: none;
+  cursor: pointer;
+}
+
+section p {
+  font-size: 2rem;
+}
+
+.checking {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.guess {
+  background: none;
+  width: 25rem;
+  height: 10rem;
+  border: 0.5rem solid #eee;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 5rem;
+  text-align: center;
+  color: var(--grey);
+  padding: 2.5rem;
+  display: block;
+  margin: 2rem;
+}
+
+.check {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+  color: #222;
+  background-color: var(--grey);
+  width: auto;
+}
+
+.message {
+  height: 6rem;
+  margin-top: 2rem;
+}
